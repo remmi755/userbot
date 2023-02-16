@@ -1,0 +1,17 @@
+.container {
+   max-width: 1160px;
+    margin: 140px auto 0;
+}
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin: 0;
+}
+
+.titleBlue {
+    color: rgb(68, 165, 250);
+}

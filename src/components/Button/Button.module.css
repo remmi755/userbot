@@ -1,0 +1,14 @@
+.btn {
+    cursor:pointer;
+    color: #ffffff;
+    background-color:#44a5fa;
+    background-position: center center;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out
+}
+.btn:hover {
+    opacity: 0.8;
+}

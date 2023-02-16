@@ -1,0 +1,47 @@
+table {
+   margin-top: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 10%);
+    width: 1160px;
+}
+
+.header {
+    background-color: #f2f8fd;
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px;
+}
+
+.bot {
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 22px 20px;
+}
+
+th{
+    padding: 4px 4px;
+}
+
+td {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+tbody {
+    border-bottom: 1px solid lightgray;
+}
+
+.iconCircle {
+    padding-left: 205px;
+}
+
+.text {
+    width: 260px;
+    padding: 22px 20px;
+    color: #44a5fa;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.35;
+}

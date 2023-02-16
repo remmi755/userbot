@@ -1,0 +1,19 @@
+.container {
+    width: 600px;
+    height: 263px;
+    background-color: #333333;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+.textItem {
+    margin: 2px;
+}
+
+.textItem:nth-child(2) {
+    margin-top: 20px;
+}
+

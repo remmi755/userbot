@@ -1,0 +1,114 @@
+.container {
+    position: absolute;
+    z-index: 3;
+    left: 830px;
+    top: -5px;
+}
+
+.phone {
+    width: 470px;
+}
+
+.imgMessageTop {
+    width: 385px;
+    border-radius: 12px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    position: absolute;
+    top: 144px;
+    left: 76px;
+    z-index: 2;
+}
+
+.imgMessageMiddle {
+    width: 424px;
+    border-radius: 12px;
+    position: absolute;
+    top: 241px;
+    left: -20px;
+    z-index: 2;
+}
+
+.imgMessageBottom {
+    width: 344px;
+    border-radius: 12px;
+    position: absolute;
+    top: 349px;
+    left: 200px;
+    z-index: 2;
+}
+
+.phoneCircle {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-width: 1px;
+    border-color: #79bffc;
+    left: 275px;
+    top: -432px;
+    z-index: 1;
+}
+
+.phoneCircleBlue {
+    border-width: 1px;
+    border-radius: 3000px;
+    background-color: #f2f8fd;
+    border-color: #ffffff;
+    position: absolute;
+    width: 499px;
+    height: 498px;
+    left: 212px;
+    top: 222px;
+    z-index: -1;
+}
+
+.btnLeft {
+    width: 50px;
+    animation: myAnim 3s ease 0s infinite normal forwards;
+    position: absolute;
+    top: 65px;
+    left: 63px;
+}
+
+.btnRight {
+    width: 45px;
+    animation: myAnim 3s ease 0s infinite normal forwards;
+    position: absolute;
+    top: 213px;
+    left: 439px;
+    z-index: 2;
+}
+
+.btnBottom {
+    width: 101px;
+    animation: myAnim 3s ease 0s infinite normal forwards;
+    position: absolute;
+    top: 463px;
+    left: 289px;
+}
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1) ;
+        transform-origin: center center;
+    }
+
+    3% {
+        animation-timing-function: ease-in;
+        transform: scale(1.10)  translate(-12px, 0px);
+    ;
+    }
+
+    50% {
+        animation-timing-function: ease-in;
+        transform: scale(1.2) translate(-5px, 0px);
+    ;
+    }
+
+   100% {
+        animation-timing-function: ease-out;
+        transform: scale(1) translate(0px, 0px);
+    }
+}

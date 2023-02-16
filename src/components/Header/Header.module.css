@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    box-shadow: 0 3px 13px rgb(51, 51, 51, 0.1);
+    position: relative;
+    z-index: 100;
+}
+
+.container {
+    width: 1400px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgLogo {
+    display: flex;
+    align-self: center;
+    width: 58px;
+}
+
+.btnHeader {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    width: 164px;
+    height: 40px;
+    margin: 20px ;
+}
+
+.flagBlock {
+    display: flex;
+    justify-self: end;
+
+}
+
+.imgFlag {
+    width: 24px;
+    height: 24px;
+    margin: 27px 5px;
+    border-width: 1px;
+    border-radius: 50px;
+    background-position: center center;
+    border-color: #bdbdbd;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.rightFlag {
+    object-fit: none;
+}

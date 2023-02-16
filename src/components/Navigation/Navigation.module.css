@@ -1,0 +1,26 @@
+.container {
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    margin-left: -310px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    list-style: none;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: #44a5fa;
+
+}
